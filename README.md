@@ -8,4 +8,30 @@ The main advantage of twint is being able to query Twitter without any rate limi
 
 ### Example Usage
 
-![twitter-cli-demo](https://user-images.githubusercontent.com/47319147/202727991-8ff4102e-ebac-486f-abb1-f57af4a2288b.gif)
+```
+❱  t --help
+usage: twitter.py [-h] [-s [SINCE]] [-u [USER]] [-m [MAX]] [-t [TOP]] [-w] [-b] [-c] [-l] [-r] [search]
+
+Twitter Search
+
+positional arguments:
+  search                What you'd like to search
+
+options:
+  -h, --help            show this help message and exit
+  -s [SINCE], --since [SINCE]
+                        The date from which to search
+  -u [USER], --user [USER]
+                        A user's tweets you'd like to display
+  -m [MAX], --max [MAX]
+                        How many tweets you'd like to fetch
+  -t [TOP], --top [TOP]
+                        How many tweets you'd like to print
+  -w, --who             Who's who? (Displays profiles of users being followed)
+  -b, --backwards       Reverse order of tweets
+  -c, --conversation    See replies
+  -l, --likes           Sort by most liked
+  -r, --retweets        Sort by most retweeted
+```
+
+![twitter-demo](https://user-images.githubusercontent.com/47319147/202789433-1a204f2c-2e6a-4c58-ace1-32f3d0dccffc.gif)
