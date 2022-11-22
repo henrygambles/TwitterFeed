@@ -1,8 +1,8 @@
-# Twitter CLI
+# Twitter Feed
 
 Simple command line interface for Twitter using the [twint]("https://github.com/twintproject/twint") library. This isn't designed to be a client which supports logging in - but allows you to fetch, search & sort tweets for any given user, or a list of users.
 
-The main advantage of twint is being able to query Twitter without any rate limitations. I use this to follow people/topics I find interesting - as the defualt Twitter feed tends to be clogged up with suggested posts - or only show those which are already popular.
+The main advantage of twint is being able to query Twitter without any rate limitations an fetch large amounts of data quickly. I use this script to follow people/topics I find interesting - as the defualt Twitter feed tends to be clogged up with suggested posts - or only show those which are already popular.
 
 (Warning - this code is 🗑 - I don't write code like this for work 😄)
 
